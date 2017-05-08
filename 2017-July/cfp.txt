@@ -5,33 +5,40 @@ We apologize if you receive multiple copies of this CFP. Please distribute this 
 ----  *reTHINK BETA TESTER EVENT  ---- 1 DAY EVENT* ---- 
 ========================================================================
                       --- PRIZES ---
-*500€* --- WINNING AWARD FOR BEST DEVELOPER
+*###* --- WINNING AWARD FOR BEST DEVELOPER
 
-*50€* --- Participation award - FOR ALL PARTICIPANTS 
+*##* --- Participation award - FOR ALL PARTICIPANTS 
 ========================================================================
 
 *May 27th, 2017*, Techtris House, Rua da Moeda, nº 7, Cais-do-Sodré, Lisbon, Portugal
 
-https://rethink-project.eu/XXXXXXXXXXXXXXXXXXX/
+Apply at: https://www.meetup.com/pt-BR/Decentralised-Comms-LX/events/drafts/
 
 IMPORTANT INFORMATION
+
 Registration deadline: May 20, 2017   (--limited number of seats--)
 Programming language: Javascript, HTML/CSS
-Location: XXXXXXXXXXXXXXXXXXXXXXXXXXX
+Location: Techtris House, Rua da Moeda, nº 7, Cais-do-Sodré, Lisbon, Portugal
+Pre-event Tutorials: May 24, 2017, 
 ========================================================================
 
-Major European telecom companies, such as Deutsche Telekom, Orange, Altice Labs and others collaborate in the development of a the reTHINK platform (https://rethink-project.eu/), enabling a new approach to context-based communications.
+Major European telecom companies, such as Deutsche Telekom, Orange, Altice Labs and others collaborate in the development of the reTHINK framework (https://rethink-project.eu/), enabling a new approach to context-based communications.
 
-reTHINK invites developers to test and develop applications using this new platform, that strive for the future disrupt on how communication takes place across the Internet of Thing, in smart cities or in social networks.
+reTHINK invites developers to test and develop applications using this new framework, that strive for the future disrupt on how communication takes place across social networks, in smart cities or in the Internet of Things.
 
-We are seeking feedback on the capabilities of the platform and its ease of use for rapid prototyping of web application.
+We are seeking feedback on the capabilities of the framework and its ease of use for rapid prototyping of web application.
 
 Details:
-XXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXX
 
-More details at: https://rethink-project.eu/XXXXXXXXXXXXXX/details/
+The reTHINK Framework is a decentralised communication infrastructure (licensed with Apache 2.0) that enables developers to easily build and integrate, communication services that are faster, more effective, more trustful and inherently inter-operable. Write once, deploy anywhere, together with seamless cross domain Interoperability, gives developers and service providers much more freedom to really focus on users' expectations. Ultimately, reTHINK framework is an alternative to current dominant walled garden communication networks that prevent new developers and new service providers from entering in the market and, at the same time, empowers the users with the choice and the management of their private data and identities. The reTHINK Framework provides the tools to build a global decentralised network of Hyperlinked Entities (hyperties) that are executed at the edge and trustfully communicates through a Decentralised Messaging Framework. Learn more at: https://github.com/reTHINK-project/startup/wiki.
+
+Candidates are recommended to attend the Pre-event tutorials session on May, the 24th of May in order to be more prepared. Register at https://www.meetup.com/pt-BR/Decentralised-Comms-LX/events/239818391/
+
+The reTHINK Beta-tester event will take place in a privileged location in the capital, the space is named Techtris House in an allusion to the game Tetris and, consequently, to the fitting together of the various pieces in the ecosystem of innovation, in particular the startups and the industry. Equipped with the latest infrastructures and the latest communications services from PT, this two-story building will allow a hundred entrepreneurs to enjoy all the necessary conditions for the development of their solutions. In addition to co-work areas, meeting rooms, dining areas, a laboratory and a multifunction room equipped for events, this new house of entrepreneurship has the permanent presence of PT teams. The Web Summit makes this space its new office in Lisbon.
+
+
+More details at: https://github.com/reTHINK-project/hackathons/blob/master/2017-July
+
 
 ========================================================================
 What others say about reTHINK
