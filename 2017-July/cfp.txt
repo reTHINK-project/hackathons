@@ -1,25 +1,25 @@
-We apologize if you receive multiple copies of this CFP. Please distribute this CFP to your colleagues.
+We apologize if you receive multiple copies of this CFP.
 
 
 ========================================================================
                       CALL FOR PARTICIPATION
-----  *reTHINK BETA TESTER EVENT  ---- 1 DAY EVENT* ---- 
+----  *reTHINK BETA TESTER EVENT  ---- 1 DAY EVENT* ----
 ========================================================================
                       --- PRIZES ---
 *###* --- WINNING AWARD FOR BEST DEVELOPER
 
-*##* --- Participation award - FOR ALL PARTICIPANTS 
+*##* --- Participation award - FOR ALL PARTICIPANTS
 ========================================================================
 
-*May 27th, 2017*, Techtris House, Rua da Moeda, nº 7, Cais-do-Sodré, Lisbon, Portugal
+*10:00, May 27th, 2017*, Techtris House, Rua da Moeda, nº 7, Cais-do-Sodré, Lisbon, Portugal*
 
-Apply at: https://www.meetup.com/pt-BR/Decentralised-Comms-LX/events/drafts/
+*Register at:* https://www.meetup.com/pt-BR/Decentralised-Comms-LX/events/drafts/
 
 IMPORTANT INFORMATION
 
 Registration deadline: May 20, 2017   (--limited number of seats--)
 Programming language: Javascript, HTML/CSS
-Pre-event Tutorials: May 24, 2017
+Pre-event Tutorials: 17:00, May 24, 2017 (Option participation - rehearsal session)
 ========================================================================
 
 Major European telecom companies, such as Deutsche Telekom, Orange, Altice Labs and others, collaborate in the development of the reTHINK framework (https://rethink-project.eu/), enabling a new approach to context-based communications, that strives to disrupt how communication takes place across social networks, in smart cities or in the Internet of Things.
@@ -29,19 +29,17 @@ The reTHINK project invites developers to test this framework by developing appl
 Details:
 
 The reTHINK Framework is a decentralised communication infrastructure (licensed with Apache 2.0) that enables developers to easily build and integrate communication services that are faster, more effective, more trustful and inherently inter-operable.
-Write once, deploy anywhere, together with seamless cross-domain Interoperability, gives developers and service providers much more freedom to really focus on users' expectations. 
-Ultimately, reTHINK framework is an alternative to current dominant walled garden communication networks, that prevent new developers and new service providers from entering in the market, and at the same time, empowers the users with the choice and the management of their private data and identities. 
-The reTHINK Framework provides the tools to build a global decentralised network of Hyperlinked Entities (hyperties) that are executed at the edge and trustfully communicates through a Decentralised Messaging Framework. Learn more at: https://github.com/reTHINK-project/startup/wiki.
+Write once, deploy anywhere, together with seamless cross-domain Interoperability, gives developers and service providers much more freedom to really focus on users' expectations.
+Ultimately, reTHINK framework is an alternative to current dominant walled garden communication networks, that prevent new developers and new service providers from entering in the market, and at the same time, empowers the users with the choice and the management of their private data and identities.
 
-Candidates are recommended to attend the Pre-event tutorials session on May, the 24th of May in order to be more prepared. Register at https://www.meetup.com/pt-BR/Decentralised-Comms-LX/events/239818391/
-#RLP if they can't attend, do you think they will be discuraged from participating?
+Candidates are welcomed to attend the Pre-event tutorials session on May, the 24th of May to get better acquainted with this framework.
 
-The reTHINK Beta-tester event will take place in a privileged location in the capital, the space is named Techtris House in an allusion to the game Tetris and, consequently, to the fitting together of the various pieces in the ecosystem of innovation, in particular the startups and the industry. Equipped with the latest infrastructures and the latest communications services from PT, this two-story building will allow a hundred entrepreneurs to enjoy all the necessary conditions for the development of their solutions. In addition to co-work areas, meeting rooms, dining areas, a laboratory and a multifunction room equipped for events, this new house of entrepreneurship has the permanent presence of PT teams. The Web Summit made this space its new office in Lisbon.
+Location:
+The reTHINK Beta-tester event will take place in a privileged location in the capital, the space is named Techtris House in an allusion to the game Tetris and, consequently, to the fitting together of the various pieces in the ecosystem of innovation, in particular the startups and the industry.
+Equipped with the latest infrastructures and the latest communications services from PT, this two-story building will allow a hundred entrepreneurs to enjoy all the necessary conditions for the development of their solutions. In addition to co-work areas, meeting rooms, dining areas, a laboratory and a multifunction room equipped for events, this new house of entrepreneurship has the permanent presence of PT teams.
+The Web Summit made this space its new office in Lisbon.
 
-
-More details at: https://github.com/reTHINK-project/hackathons/blob/master/2017-July
-#RLP too complex a link! Can't we get this up on the rethink website?
-
+More details at: https://rethink-project.eu/beta-tester-event
 
 ========================================================================
 What others say about reTHINK
@@ -52,5 +50,5 @@ http://www.martingeddes.com/hyperties-travel-adaptors-cloud/
 
 ========================================================================
 
-reTHINK is a collaborative project among Eurescom GmbH, Deutsche Telekom AG, Orange, Altice Labs, Fraunhofer FOKUS, Quobis Networks, Apizee, Instiut Mines-Telecom, INESC-ID and Technical Univ. Berlin. It receives funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 645342
-
+reTHINK is a collaborative project among Eurescom GmbH, Deutsche Telekom AG, Orange, Altice Labs, Fraunhofer FOKUS, Quobis Networks, Apizee, Instiut Mines-Telecom, INESC-ID and Technical Univ. Berlin. 
+It receives funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 645342.
