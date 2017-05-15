@@ -16,9 +16,9 @@ We apologize if you receive multiple copies of this CFP.
 
 IMPORTANT INFORMATION
 
-Registration deadline: May 20, 2017   (--limited number of seats--)
+Registration deadline: May 24, 2017   (--limited number of seats--)
 Programming language: Javascript, HTML/CSS
-Pre-event Tutorials: 17:00, May 24, 2017 (Option participation - rehearsal session)
+Pre-event Tutorials: 17:00, May 24, 2017 (Optional participation - rehearsal session)
 ========================================================================
 
 Major European telecom companies, such as Deutsche Telekom, Orange, Altice Labs and others, collaborate in the development of the reTHINK framework (https://rethink-project.eu/), enabling a new approach to context-based communications, that strives to disrupt how communication takes place across social networks, in smart cities or in the Internet of Things.
