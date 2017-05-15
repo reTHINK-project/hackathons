@@ -19,6 +19,8 @@ IMPORTANT INFORMATION
 Registration deadline: May 24, 2017   (--limited number of seats--)
 Programming language: Javascript, HTML/CSS
 Pre-event Tutorials: 17:00, May 24, 2017 (Optional participation - rehearsal session)
+
+Launch and snacks provided during the event.
 ========================================================================
 
 Major European telecom companies, such as Deutsche Telekom, Orange, Altice Labs and others, collaborate in the development of the reTHINK framework (https://rethink-project.eu/), enabling a new approach to context-based communications, that strives to disrupt how communication takes place across social networks, in smart cities or in the Internet of Things.
@@ -47,5 +49,4 @@ http://www.martingeddes.com/hyperties-travel-adaptors-cloud/
 
 ========================================================================
 
-reTHINK is a collaborative project among Eurescom GmbH, Deutsche Telekom AG, Orange, Altice Labs, Fraunhofer FOKUS, Quobis Networks, Apizee, Instiut Mines-Telecom, INESC-ID and Technical Univ. Berlin. 
-It receives funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 645342.
+reTHINK is a collaborative project among Eurescom GmbH, Deutsche Telekom AG, Orange, Altice Labs, Fraunhofer FOKUS, Quobis Networks, Apizee, Instiut Mines-Telecom, INESC-ID and Technical Univ. Berlin. It receives funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 645342.
