@@ -39,7 +39,7 @@ This section of the survey was used to collect information about the participant
 
 4. How much knowledge do you have about web application development?
 
-![1-5](./Figures/Evaluation/1-5.png)
+![1-5](./Evaluation/1-5.png)
 
 5. Do you have any experience with frameworks for web application development?
 
@@ -48,11 +48,11 @@ This section of the survey was used to collect information about the participant
 
 6. Select all the programming languages that you already work with.
 
-![1-7](./Figures/Evaluation/1-7.png)
+![1-7](./Evaluation/1-7.png)
 
 7. Select all the frameworks for web application development that you already work with.
 
-![1-8](./Figures/Evaluation/1-8.png)
+![1-8](./Evaluation/1-8.png)
 
 # Survey - First challenge
 
@@ -60,7 +60,7 @@ This section corresponds to the first challenge of the event that each team had 
 
 1. How easy was to include Hyperties in your application?
 
-![2-1](./Figures/Evaluation/2-1.png)
+![2-1](./Evaluation/2-1.png)
 
 Most relevant comments to the previous question:
 
@@ -69,7 +69,7 @@ Most relevant comments to the previous question:
 
 2. How much knowledge about reTHINK do you think is required to use it?
 
-![2-2](./Figures/Evaluation/2-1.png)
+![2-2](./Evaluation/2-1.png)
 
 Most relevant comments to the previous question:
 
@@ -126,7 +126,7 @@ Most relevant comments to the previous question:
 
 8. Did you manage to use the Identity Management features?
 
-![2-8](./Figures/Evaluation/2-8.png)
+![2-8](./Evaluation/2-8.png)
 
 Most relevant comments to the previous question:
 
@@ -144,7 +144,7 @@ Most relevant comments to the previous question:
 
 10. Classify your experience with reTHINK in this first challenge.
 
-![2-10](./Figures/Evaluation/2-10.png)
+![2-10](./Evaluation/2-10.png)
 
 ### Conclusion:
 Each team completed with success this first challenge and we were able to collect very useful feedback about reTHINK and its features. There were positive aspects, such as:
@@ -167,7 +167,7 @@ This section corresponds to the second challenge of the event that each team had
 
 1. How easy was it to include more than one Hyperty in your application?
 
-![3-1](./Figures/Evaluation/3-1.png)
+![3-1](./Evaluation/3-1.png)
 
 2. Were the used Hyperties well documented?
 
@@ -180,7 +180,7 @@ Most relevant comments to the previous question:
 
 3. How much knowledge about reTHINK do you think is required to use it?
 
-![3-3](./Figures/Evaluation/3-3.png)
+![3-3](./Evaluation/3-3.png)
 
 Most relevant comments to the previous question:
 
@@ -258,7 +258,7 @@ Most relevant comments to the previous question:
 
 13. Classify your experience with reTHINK in this second challenge.
 
-![3-13](./Figures/Evaluation/3-13.png)
+![3-13](./Evaluation/3-13.png)
 
 ### Conclusion:
 Only four teams were able to complete this second challenge with success. In spite of this, it was still possible to collect some useful feedback about reTHINK and its features. There were positive aspects, such as:
@@ -281,7 +281,7 @@ This section corresponds to the third challenge of the event that each team had 
 
 1. How easy was it to setup the reTHINK environment in your local machine?
 
-  ![4-1](./Figures/Evaluation/4-1.png)
+  ![4-1](./Evaluation/4-1.png)
 
 Most relevant comments to the previous question:
 
@@ -289,7 +289,7 @@ Most relevant comments to the previous question:
 
 2. How much knowledge about reTHINK did you think is required?
 
-  ![4-2](./Figures/Evaluation/4-2.png)
+  ![4-2](./Evaluation/4-2.png)
 
 3. How much time did you spent reading the documentation? (estimate)
 
@@ -323,7 +323,7 @@ Most relevant comments to the previous question:
 
 7. How easy was it to change the Hyperty functionality?
 
-  ![4-7](./Figures/Evaluation/4-7.png)
+  ![4-7](./Evaluation/4-7.png)
 
 8. Let us know what limitations you found and how you would improve it.
 
@@ -331,7 +331,7 @@ Most relevant comments to the previous question:
 
 9. Classify your experience with reTHINK in this third challenge.
 
-  ![4-9](./Figures/Evaluation/4-9.png)
+  ![4-9](./Evaluation/4-9.png)
 
 #### Conclusion:
 Only two teams were able to complete this third challenge with success. In spite of this, it was still possible to collect some useful feedback about the development of hyperties. There were positive aspects, such as:
@@ -368,7 +368,7 @@ Unfortunately, neither of the teams that made it to this challenged, managed to 
 
 7. In your opinion, how hard would it be to develop new hyperties?
 
-  ![5-7](./Figures/Evaluation/5-7.png)
+  ![5-7](./Evaluation/5-7.png)
 
 Most relevant comments to the previous question:
 
@@ -386,7 +386,7 @@ Most relevant comments to the previous question:
 
 11. Classify your experience with reTHINK in this fourth challenge.
 
-  ![5-11](./Figures/Evaluation/5-11.png)
+  ![5-11](./Evaluation/5-11.png)
 
 # Survey - Fifth challenge
 
@@ -434,7 +434,7 @@ This section of the survey was used to make an overall evaluation about reTHINK.
 
 3. How easy was it to understand the reTHINK documentation?
 
-  ![6-3](./Figures/Evaluation/6-3.png)
+  ![6-3](./Evaluation/6-3.png)
 
 4. What features of the reTHINK framework look more promising to you?
 
@@ -458,7 +458,7 @@ This section of the survey was used to make an overall evaluation about reTHINK.
 
 7. Would you recommend the reTHINK framework?
 
-  ![6-7](./Figures/Evaluation/6-7.png)
+  ![6-7](./Evaluation/6-7.png)
 
 #### Conclusion:
 Taking into account all the feedback, the overall evaluation of reTHINK seems promising. There were positive aspects, such as:
