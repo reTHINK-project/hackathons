@@ -1,6 +1,18 @@
 #	Development Evaluations
 
-The questionnaire included in this section was used to evaluate different aspects of the reTHINK system and its development framework. The main goal of this questionnaire was to collect feedback on the reTHINK Beta Tester Event, organized on May 27th for a limited number of outside developers. This questionnaire was divided into seven sections. One section for team caracterization and background, five sections corresponding to each of the challenges and a last section for overall evaluation.
+INESC-ID and AlticeLabs organized a developer competition in Lisbon, which took place on Saturday, May 27th, 2017. The event was promoted via [Meetup](https://www.meetup.com/Decentralised-Comms-LX/events/239818330/). It started at 9:30 and lasted until 19:00, taking place at the Techtris House, a startup incubator and home to the WebSummit offices in Lisbon. The goals of the competition were to promote the ReThink platform and gather developer feedback.
+The competition had developers, who were completely unfamiliar with the ReThink platform, complete a set of 5 challenges.  Challenges started with creating a simple application that made use of a Hyperty, progressing through combining multiple hyperties, creating a new hyperty and concluding with the development of a video-conferencing web application making use of available hyperties. At the end of each challenge, developers were asked to fill a questionnaire about the task they had just completed.
+The competition had 12 participants, grouped into 8 teams of at most two elements. Most participants were male, but a female attended. Participants’ ages ranged from 20 to 70 years. Two groups made significant progress into the fourth challenge. A jury made up of two INESC-ID and two Altice Labs representatives awarded the first prize (worth 500€) to Diogo Pereira.  Participation awards were given to all participants.
+Overall, participants recognized value to the ReThink platform, saying they would recommend its use. Some of the suggestions included:
+ * Offer built-in integration with front-end frameworks for UI creation
+ * Having a larger offer of hyperties for developers to integrate into their apps
+
+The most valuable features were found to be:
+ * Ease of integrating hyperties for complex tasks into new applications
+ * Ease of use
+ * The ability to interoperate with applications from other developers by reusing their hyperties  
+
+These conclusion were reached though the use of the questionnaire presented in this section, that was used to evaluate different aspects of the reTHINK system and its development framework. The main goal of this questionnaire was to collect feedback on the reTHINK Beta Tester Event, organized on May 27th for a limited number of outside developers. This questionnaire was divided into seven sections. One section for team caracterization and background, five sections corresponding to each of the challenges and a last section for overall evaluation.
  
 The collected feedback from this survey will be used to identify and improve on the weaker parts of the framework, making the system more usable. It will also allow us to evaluate how well understood are the most important concepts, so that we may improve the documentation and training material.
 
