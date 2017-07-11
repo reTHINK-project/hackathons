@@ -1,4 +1,4 @@
-#	Development Evaluations
+##	Developer Competition Evaluations
 
 INESC-ID and AlticeLabs organized a developer competition in Lisbon, which took place on Saturday, May 27th, 2017. The event was promoted via [Meetup](https://www.meetup.com/Decentralised-Comms-LX/events/239818330/). It started at 9:30 and lasted until 19:00, taking place at the Techtris House, a startup incubator and home to the WebSummit offices in Lisbon. The goals of the competition were to promote the ReThink platform and gather developer feedback.
 The competition had developers, who were completely unfamiliar with the ReThink platform, complete a set of 5 challenges.  Challenges started with creating a simple application that made use of a Hyperty, progressing through combining multiple hyperties, creating a new hyperty and concluding with the development of a video-conferencing web application making use of available hyperties. At the end of each challenge, developers were asked to fill a questionnaire about the task they had just completed.
@@ -12,8 +12,9 @@ The most valuable features were found to be:
  * Ease of use
  * The ability to interoperate with applications from other developers by reusing their hyperties  
 
+
 These conclusion were reached though the use of the questionnaire presented in this section, that was used to evaluate different aspects of the reTHINK system and its development framework. The main goal of this questionnaire was to collect feedback on the reTHINK Beta Tester Event, organized on May 27th for a limited number of outside developers. This questionnaire was divided into seven sections. One section for team caracterization and background, five sections corresponding to each of the challenges and a last section for overall evaluation.
- 
+
 The collected feedback from this survey will be used to identify and improve on the weaker parts of the framework, making the system more usable. It will also allow us to evaluate how well understood are the most important concepts, so that we may improve the documentation and training material.
 
 This event was a success, allowing us to collect very useful feedback. The following preliminary conclusions are highlighted:
@@ -28,7 +29,7 @@ This event was a success, allowing us to collect very useful feedback. The follo
   * The Hyperty toolkit was appreciated by participants
   * It would be great if reTHINK had built-in integration with front-end frameworks and examples
 
-# Survey - Teams presentation and background
+### Survey - Teams presentation and background
 
 This section of the survey was used to collect information about the participants. Participants could enter the competition alone or in teams of two elements. In total, this event had twelve participants divided into eight teams. Not all of them answered all the questions.
 
@@ -66,7 +67,7 @@ This section of the survey was used to collect information about the participant
 
 ![1-8](./Evaluation/1-8.png)
 
-# Survey - First challenge
+### Survey - First challenge
 
 This section corresponds to the first challenge of the event that each team had to complete. The main goal of this first challenge was to provide a first contact with the reTHINK framework. Each team had to developed a simple web application that uses an hyperty called CodeGeneratorReporter, taking advantage of its features. This hyperty provides a numerical code depending of the team's name, that should be passed as input. This challenge was divided into two tasks. The first task was to install the reTHINK framework and to load the CodeGeneratorReporter hyperty. The second task was to use the features of the loaded hyperty.
 
@@ -116,7 +117,7 @@ Most relevant comments to the previous question:
   - 1h
   - 3h
 
-##### Note: Our estimate for this task was 45 minutes. The average time of the participants was 48 minutes.
+**Note: Our estimate for this task was 45 minutes. The average time of the participants was 48 minutes.**
 
 6. How much time did you spent in the 2nd task? (estimate)
 
@@ -128,7 +129,7 @@ Most relevant comments to the previous question:
   - 1h45min
   - 2h (2)
 
-##### Note: Our estimate for this task was 30 minutes. The average time of the participants was 44 minutes.
+**Note: Our estimate for this task was 30 minutes. The average time of the participants was 44 minutes.**
 
 7. Which task gave you the most trouble? And why?
 
@@ -158,7 +159,7 @@ Most relevant comments to the previous question:
 
 ![2-10](./Evaluation/2-10.png)
 
-### Conclusion:
+#### Conclusion:
 Each team completed with success this first challenge and we were able to collect very useful feedback about reTHINK and its features. There were positive aspects, such as:
 
   * Even with minimal knowledge about web application development, all participants were able to use reTHINK and complete this challenge;
@@ -173,7 +174,7 @@ However, we also collected some negative feedback that should be addressed, such
   * The reTHINK library logging is maybe a little too verbose.
 
 
-# Survey - Second challenge
+### Survey - Second challenge
 
 This section corresponds to the second challenge of the event that each team had to complete. The main goal of this second challenge was to combine multiple hyperties into a web application. Each team had to developed a more complex web application, in terms of user interface, that uses the CodeGeneratorReporter and GroupChatManager hyperties. This challenge was divided into three tasks. The first task was to load two hyperties. The second task was to develop all the user interface to deal with all the features of the GroupChatManager hyperty e.g. creation of chat rooms, sending messages (chat capabilities). And finally, the third task was to combine the two loaded hyperties.
 
@@ -216,7 +217,7 @@ Most relevant comments to the previous question:
   - 30min
   - 1h
 
-##### Note: Our estimate for this task was 15 minutes. The average time of the participants was 19 minutes.
+**Note: Our estimate for this task was 15 minutes. The average time of the participants was 19 minutes.**
 
 6. How much time did you spent in the 2nd task? (estimate)
 
@@ -227,7 +228,7 @@ Most relevant comments to the previous question:
   - 2h15min
   - 3h (2)
 
-##### Note: Our estimate for this task was 150 minutes. The average time of the participants was 115 minutes.
+**Note: Our estimate for this task was 150 minutes. The average time of the participants was 115 minutes.**
 
 7. How much time did you spent in the 3rd task? (estimate)
 
@@ -236,7 +237,7 @@ Most relevant comments to the previous question:
   - 40min
   - 45min
 
-##### Note: Our estimate for this task was 15 minutes. The average time of the participants was 26 minutes.
+**Note: Our estimate for this task was 15 minutes. The average time of the participants was 26 minutes.**
 
 8. Which task gave you the most trouble? And why?
 
@@ -272,7 +273,7 @@ Most relevant comments to the previous question:
 
 ![3-13](./Evaluation/3-13.png)
 
-### Conclusion:
+#### Conclusion:
 Only four teams were able to complete this second challenge with success. In spite of this, it was still possible to collect some useful feedback about reTHINK and its features. There were positive aspects, such as:
 
   * The participants recognized that if they had a bit more practice with the framework, they would use it in future projects;
@@ -287,7 +288,7 @@ However, we collect also some negative aspects that should be considered, such a
   * The fact that it is necessary to clean the cache constantly is a bit dull.
 
 
-# Survey - Third challenge
+### Survey - Third challenge
 
 This section corresponds to the third challenge of the event that each team had to complete. The main goal of this third challenge was to change the CodeGeneratorReporter hyperty functionality, reusing the previous developed application. Now, this hyperty should generate a code and a timestamp according to the team's name, that should be passed as input. This challenge was divided into two tasks. The first task was to configure the hyperty toolkit, following the available documentation on the reTHINK repository. The second task was to change the hyperty functionality and to use it in the developed application.
 
@@ -322,7 +323,7 @@ Most relevant comments to the previous question:
   - 1h
   - 1h30min
 
-#### Note: Our estimate for this task was 35 minutes. The average time of the participants was 51 minutes.
+**Note: Our estimate for this task was 35 minutes. The average time of the participants was 51 minutes.**
 
 6. How much time did you spent in the 2nd task? (estimation)
 
@@ -331,7 +332,7 @@ Most relevant comments to the previous question:
   - 20min
   - 3h
 
-#### Note: Our estimate for this task was 40 minutes. The average time of the participants was 51 minutes.
+**Note: Our estimate for this task was 40 minutes. The average time of the participants was 51 minutes.**
 
 7. How easy was it to change the Hyperty functionality?
 
@@ -357,7 +358,7 @@ However, we collect also some negative aspects that should be considered, such a
   * Only being able to have 1 tab open loading a certain hyperty.
 
 
-# Survey - Fourth challenge
+### Survey - Fourth challenge
 
 This section corresponds to the fourth challenge of the event that each team had to complete. The main goal of this fourth challenge was to develop a video conference application. This application should cover some functional requirements, such as the creation of chat rooms with the possibility of inviting users to join in, A/V calls between users and the possibility to make A/V calls at the same time that a chat room is available (exchanging messages). This was an open challenge in which the participants could choose hyperties already available or develop their own hyperties.
 
@@ -400,7 +401,7 @@ Most relevant comments to the previous question:
 
   ![5-11](./Evaluation/5-11.png)
 
-# Survey - Fifth challenge
+### Survey - Fifth challenge
 
 This section corresponds to the fifth challenge of the event that each team had to complete. The main goal of this fifth challenge was to develop a new hyperty from scratch. Each team was free to design the hyperty, as well as the web application that uses it.
 
@@ -425,7 +426,7 @@ Unfortunately, no team reached this challenge, so we could not collected answers
 9. Classify your experience with reTHINK in this fifth challenge.
 
 
-# Survey - reTHINK Overall Evaluation
+### Survey - reTHINK Overall Evaluation
 
 This section of the survey was used to make an overall evaluation about reTHINK.
 
