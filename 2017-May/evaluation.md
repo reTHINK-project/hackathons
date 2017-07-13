@@ -4,12 +4,17 @@ INESC-ID and AlticeLabs organized a developer competition in Lisbon, which took 
 The competition had developers, who were completely unfamiliar with the ReThink platform, complete a set of 5 challenges.  Challenges started with creating a simple application that made use of a Hyperty, progressing through combining multiple hyperties, creating a new hyperty and concluding with the development of a video-conferencing web application making use of available hyperties. At the end of each challenge, developers were asked to fill a questionnaire about the task they had just completed.
 The competition had 12 participants, grouped into 8 teams of at most two elements. Most participants were male, but a female attended. Participants’ ages ranged from 20 to 70 years. Two groups made significant progress into the fourth challenge. A jury made up of two INESC-ID and two Altice Labs representatives awarded the first prize (worth 500€) to Diogo Pereira.  Participation awards were given to all participants.
 Overall, participants recognized value to the ReThink platform, saying they would recommend its use. Some of the suggestions included:
+
  * Offer built-in integration with front-end frameworks for UI creation
+ 
  * Having a larger offer of hyperties for developers to integrate into their apps
 
 The most valuable features were found to be:
+
  * Ease of integrating hyperties for complex tasks into new applications
+ 
  * Ease of use
+ 
  * The ability to interoperate with applications from other developers by reusing their hyperties  
 
 
