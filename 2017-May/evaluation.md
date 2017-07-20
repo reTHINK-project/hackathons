@@ -87,7 +87,7 @@ Most relevant comments to the previous question:
 
 2. How much knowledge about reTHINK do you think is required to use it?
 
-![2-2](./Evaluation/2-1.png)
+![2-2](./Evaluation/2-2.png)
 
 Most relevant comments to the previous question:
 
