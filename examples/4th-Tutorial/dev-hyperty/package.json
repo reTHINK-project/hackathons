@@ -1,0 +1,50 @@
+{
+  "name": "dev-hyperty",
+  "version": "1.0.0",
+  "description": "Source code of hyperties",
+  "main": ".eslintrc.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reTHINK-project/dev-hyperty.git"
+  },
+  "author": "Rethink Project",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reTHINK-project/dev-hyperty/issues"
+  },
+  "homepage": "https://github.com/reTHINK-project/dev-hyperty#readme",
+  "devDependencies": {
+    "babel-core": "6.10.4",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-rewire": "1.0.0-rc-4",
+    "babel-plugin-transform-object-rest-spread": "6.22.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.22.0",
+    "babelify": "7.3.0",
+    "browserify": "13.0.1",
+    "chai": "3.5.0",
+    "esdoc": "^0.4.7",
+    "esdoc-es7-plugin": "0.0.3",
+    "karma": "1.1.0",
+    "karma-browserify": "5.0.5",
+    "karma-chrome-launcher": "1.0.1",
+    "karma-mocha": "1.1.1",
+    "mocha": "2.5.3",
+    "sinon": "1.17.4",
+    "watchify": "3.7.0"
+  },
+  "dependencies": {
+    "deep-equal": "1.0.1",
+    "runtime-browser": "github:rethink-project/dev-runtime-browser#master",
+    "searchjs": "0.8.0",
+    "service-framework": "github:rethink-project/dev-service-framework#develop",
+    "urijs": "1.18.1"
+  }
+}

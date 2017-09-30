@@ -1,0 +1,69 @@
+@startuml "wellbeing.png"
+
+Package Wellbeing {
+
+class Wellbeing {
+  url : URL.URL
+  reporter : URL.HypertyURL
+  schema : URL.HypertyCatalogueURL
+  name : string
+  scheme = "context"
+  id: string
+  type = "activity"
+  description ?: string
+  time?: date
+  values: ContextValue[]
+  tag?: string
+  address ?: URL.HypertyRuntimeURL
+}
+
+class StepsValue {
+  name = "cumulative steps"
+  unit = "steps"
+  value : float
+  time ?: date
+  updateTime ?: date
+  expires ?: date
+}
+
+class BatteryValue {
+  name = "remaining battery energy level in percents"
+  unit = "%EL"
+  value : float
+  time ?: date
+  updateTime ?: date
+  expires ?: date
+}
+
+class HeartRateValue {
+  name = "Heart rate in beats per minute"
+  unit = "beat/m"
+  value : float
+  time ?: date
+  updateTime ?: date
+  expires ?: date
+}
+
+class SleepValue {
+  name = "Amount of sleep in seconds"
+  unit = "s"
+  value : float
+  time ?: date
+  updateTime ?: date
+  expires ?: date
+}
+
+}
+
+
+Wellbeing --|> Context.Context
+SleepValue --|> Context.ContextValue
+HeartRateValue --|> Context.ContextValue
+BatteryValue --|> Context.ContextValue
+StepsValue --|> Context.ContextValue
+
+
+Wellbeing --> HypertyResource.HypertyResourceType
+
+
+@enduml

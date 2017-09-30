@@ -1,0 +1,343 @@
+body {
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px; /*  % its more efficient */
+}
+
+.start_container{
+  margin-top: 250px; /*  % its more efficient */
+}
+
+.start_button {
+  width: 250px; /*  % its more efficient */
+  margin: 0 auto;
+}
+
+.main-container {
+  min-height: 100%;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+}
+
+#row-profile {
+  margin-top: 2%;
+  align-items: center;
+  background-color: #66CDAA;
+}
+
+#col-image {
+  margin-left: 2%;
+}
+
+#profile_image {
+  max-width: 50%;
+}
+
+#create-chat:focus {
+  background-color: white;
+}
+
+#create-chat:hover {
+  background-color: green;
+}
+
+#create-chat:visited {
+  background-color: white;
+}
+
+#create-chat:active {
+  background-color: white;
+}
+
+#create-chat {
+  background-color: white;
+}
+
+#create-chat-form:focus {
+  background-color: green;
+}
+
+#create-chat-form:hover {
+  background-color: darkgreen;
+}
+
+#create-chat-form:visited {
+  background-color: green;
+}
+
+#create-chat-form:active {
+  background-color: green;
+}
+
+#create-chat-form {
+  background-color: green;
+  color: white;
+}
+
+#chat-room-row {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+#chat-room-title {
+  margin-top: 5%;
+  margin-left: 1%;
+  /*font-weight: bold;*/
+}
+
+#chat-board {
+  border: 1px solid black;
+  height: 250px;
+  /*overflow-y: auto;*/
+  overflow-x:hidden;
+  overflow-y:visible;
+}
+
+#active-users {
+  border: 1px solid black;
+  height: 250px;
+  overflow-y: auto;
+}
+
+#messages {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+#messages-div {
+  margin-top: 2%;
+}
+
+#send-message {
+  margin-left: 85%;
+  margin-top: 1%;
+}
+
+#join-chat:focus {
+  background-color: white;
+}
+
+#join-chat:hover {
+  background-color: green;
+}
+
+#join-chat:visited {
+  background-color: white;
+}
+
+#join-chat:active {
+  background-color: white;
+}
+
+#join-chat {
+  background-color: white;
+  margin-left: 2%;
+}
+
+#join-chat-form:focus {
+  background-color: green;
+}
+
+#join-chat-form:hover {
+  background-color: darkgreen;
+}
+
+#join-chat-form:visited {
+  background-color: green;
+}
+
+#join-chat-form:active {
+  background-color: green;
+}
+
+#join-chat-form {
+  background-color: green;
+  color: white;
+}
+
+#accept-chat-invitation:focus {
+  background-color: green;
+}
+
+#accept-chat-invitation:hover {
+  background-color: darkgreen;
+}
+
+#accept-chat-invitation:visited {
+  background-color: green;
+}
+
+#accept-chat-invitation:active {
+  background-color: green;
+}
+
+#accept-chat-invitation {
+  background-color: green;
+  color: white;
+}
+
+#invite-chat:focus {
+  background-color: white;
+}
+
+#invite-chat:hover {
+  background-color: green;
+}
+
+#invite-chat:visited {
+  background-color: white;
+}
+
+#invite-chat:active {
+  background-color: white;
+}
+
+#invite-chat {
+  background-color: white;
+  margin-left: 2%;
+}
+
+#invite-form:focus {
+  background-color: green;
+}
+
+#invite-form:hover {
+  background-color: darkgreen;
+}
+
+#invite-form:visited {
+  background-color: green;
+}
+
+#invite-form:active {
+  background-color: green;
+}
+
+#invite-form {
+  background-color: green;
+  color: white;
+}
+
+#close-chat:focus {
+  background-color: white;
+}
+
+#close-chat:hover {
+  background-color: green;
+}
+
+#close-chat:visited {
+  background-color: white;
+}
+
+#close-chat:active {
+  background-color: white;
+}
+
+#close-chat {
+  background-color: white;
+  margin-left: 2%;
+}
+
+#leave-chat:focus {
+  background-color: white;
+}
+
+#leave-chat:hover {
+  background-color: green;
+}
+
+#leave-chat:visited {
+  background-color: white;
+}
+
+#leave-chat:active {
+  background-color: white;
+}
+
+#leave-chat {
+  background-color: white;
+  margin-left: 2%;
+}
+
+#call-button:focus {
+  background-color: white;
+}
+
+#call-button:hover {
+  background-color: green;
+}
+
+#call-button:visited {
+  background-color: white;
+}
+
+#call-button:active {
+  background-color: white;
+}
+
+#call-button {
+  background-color: white;
+  margin-left: 2%;
+}
+
+.video {
+  display: inline-block;
+  width: 100%;
+}
+
+#accept-call-invitation:focus {
+  background-color: green;
+}
+
+#accept-call-invitation:hover {
+  background-color: darkgreen;
+}
+
+#accept-call-invitation:visited {
+  background-color: green;
+}
+
+#accept-call-invitation:active {
+  background-color: green;
+}
+
+#accept-call-invitation {
+  background-color: green;
+  color: white;
+}
+
+#leave-call:focus {
+  background-color: white;
+}
+
+#leave-call:hover {
+  background-color: green;
+}
+
+#leave-call:visited {
+  background-color: white;
+}
+
+#leave-call:active {
+  background-color: white;
+}
+
+#leave-call {
+  background-color: white;
+  margin-left: 2%;
+}
+
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}

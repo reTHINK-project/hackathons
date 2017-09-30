@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>1st Tutorial</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://hybroker.rethink.ptinovacao.pt/.well-known/runtime/rethink.js"></script>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+
+    <div id="container">
+      <form class="form-inline" id="create" style="display: none;">
+        <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="createInput" placeholder="Observer Email">
+        <button type="button" class="btn btn-primary" id="buttonCreate">Invite</button>
+      </form>
+
+      <form class="form-inline" id="code" style="display: none;">
+        <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Team Name">
+        <button type="button" class="btn btn-primary" id="buttonGenerate">Generate</button>
+      </form>
+
+      <div class="alert alert-success" role="alert" style="display: none;" id="alert">
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="../js/client.js"></script>
+  </body>
+</html>

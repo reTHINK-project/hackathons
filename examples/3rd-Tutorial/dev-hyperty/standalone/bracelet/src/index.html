@@ -1,0 +1,51 @@
+<DOCTYPE html>
+<html>
+<head>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <title>BraceletSensorReporter</title>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+
+</head>
+<body>
+
+
+  <div class="progress loading-progress"><div class="indeterminate"></div></div>
+  <a class="last-label hide"></a>
+  <button class="connect-btn hide btn waves-effect waves-light">Connect</button>
+
+  <button class="discover-btn hide btn waves-effect waves-light">Discover others</button>
+
+  <div class="progress discovering-progress hide"><div class="indeterminate"></div></div>
+
+  <div class="row">
+    <ul class="collection ">
+    </ul>
+  </div>
+
+  <a class="status-label hide">Status:</a>
+  <span class="status_value hide">Lets Discover some Devices!!</span><br><br>
+  <div class="progress status-progress hide"><div class="indeterminate"></div></div>
+  <a class="bt-label hide">Battery:</a>
+  <span class="value_battery"></span><br>
+  <a class="steps-label hide">Steps:</a>
+  <span class="value_step"></span><br><br>
+  <a class="time-label hide">Last Read:</a>
+  <span class="value_time"></span><br><br>
+
+    <script type="text/javascript" src="https://hybroker.rethink.ptinovacao.pt/.well-known/runtime/rethink.js"></script>
+    <script src="./bracelet.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+</body>
+</html>

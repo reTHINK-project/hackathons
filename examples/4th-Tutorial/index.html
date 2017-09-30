@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>reTHINK</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="../js/rethinkClient.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+
+    <div class="main-container">
+      <!-- Container with User Profile -->
+      <div class="container">
+        <div class="row" id="row-profile">
+          <!-- Content here -->
+        </div>
+      </div>
+
+      <!-- Create Chat Room Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Create Chat Room</h5>
+              <button type="button" class="close" data-dismiss="modal" onclick="clearForms()" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="chat-name">
+                  <label for="chat-name" class="form-control-label">Chat Name:</label>
+                  <input type="text" class="form-control" id="chat-name">
+                </div>
+                <div class="friends-group">
+                  <label for="message-text" class="form-control-label" id="add-friend-label" style="display: none;">Insert friends email: (Separated by comma)</label>
+                  <textarea class="form-control" id="emails" style="display: none;"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-success" id="create-chat-form" data-dismiss="modal">Create</button>
+              <button type="button" class="btn btn-primary" id="add-friend-form">Add Friends</button>
+              <button type="button" class="btn btn-default" id="create-chat-form-close" onclick="clearForms()" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Join Chat Room Modal -->
+     <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel">Join Chat Room</h5>
+             <button type="button" class="close" data-dismiss="modal" onclick="clearForms()" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+             </button>
+           </div>
+           <div class="modal-body">
+             <form>
+               <div class="chat-name">
+                 <label for="chat-name" class="form-control-label">Chat URL:</label>
+                 <input type="text" class="form-control" id="chat-name-join">
+               </div>
+             </form>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-outline-success" id="join-chat-form" data-dismiss="modal">Join</button>
+             <button type="button" class="btn btn-default" id="create-chat-form-close" onclick="clearForms()" data-dismiss="modal">Close</button>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <!-- Receive Invitation Chat Room Modal -->
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Invitation</h5>
+            <button type="button" class="close" data-dismiss="modal" onclick="clearForms()" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="invitation-chat-name">
+                <!-- content -->
+              </div>
+              <div class="invitation-chat-participants">
+                <!-- content -->
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success" id="accept-chat-invitation" data-dismiss="modal">Accept</button>
+            <button type="button" class="btn btn btn-danger" id="reject-chat-invitation" data-dismiss="modal">Reject</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Create Invitation Chat Room Modal -->
+    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Invite Friend</h5>
+            <button type="button" class="close" data-dismiss="modal" onclick="clearForms()" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="friends-group">
+                <label for="message-text" class="form-control-label" id="invite-add-friend">Insert friends email: (Separated by comma)</label>
+                <textarea class="form-control" id="emails-invitation"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success" id="invite-form" data-dismiss="modal">Invite</button>
+            <button type="button" class="btn btn-default" id="invite-chat-form-close" onclick="clearForms()" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Close Chat Chat Room Modal -->
+     <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel">Chat Closed</h5>
+             <button type="button" class="close" data-dismiss="modal" onclick="clearForms()" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+             </button>
+           </div>
+           <div class="modal-body">
+             <form>
+               <div class="close-chat-name">
+                 <!-- content -->
+               </div>
+               <div class="close-chat-identity">
+                 <!-- content -->
+               </div>
+             </form>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" id="invitation-chat-invitation-close" data-dismiss="modal" onclick="clearForms()">Close</button>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <!-- Create Call Modal -->
+     <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel">Call Friend</h5>
+             <button type="button" class="close" data-dismiss="modal" onclick="clearForms()" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+             </button>
+           </div>
+           <div class="modal-body">
+             <form>
+               <div class="friends-group">
+                 <label for="message-text" class="form-control-label" id="invite-cal-friend">Insert friends email: (Separated by comma)</label>
+                 <textarea class="form-control" id="emails-invitation-call"></textarea>
+               </div>
+             </form>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-outline-success" id="call-form" data-dismiss="modal">Call</button>
+             <button type="button" class="btn btn-default" id="invite-chat-form-close" data-dismiss="modal" onclick="clearForms()">Close</button>
+           </div>
+         </div>
+       </div>
+     </div>
+
+    <!-- Receive Invitation Video Call Modal -->
+    <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Video Call Invitation</h5>
+            <button type="button" class="close" data-dismiss="modal" onclick="clearForms()" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="invitation-call-name">
+                <!-- content -->
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success" id="accept-call-invitation" data-dismiss="modal">Accept</button>
+            <button type="button" class="btn btn btn-danger" id="reject-call-invitation" data-dismiss="modal">Reject</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Close Chat Chat Room Modal -->
+     <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel">Video Call Closed</h5>
+             <button type="button" class="close" data-dismiss="modal" onclick="clearForms()" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+             </button>
+           </div>
+           <div class="modal-body">
+             <form>
+               <div class="close-call-identity">
+                 <!-- content -->
+               </div>
+             </form>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" id="invitation-call--close" data-dismiss="modal" onclick="clearForms()">Close</button>
+           </div>
+         </div>
+       </div>
+     </div>
+
+      <!-- Clear Chat Forms when closed -->
+      <script>
+        function clearForms() {
+            document.getElementById('chat-name').value = "";
+            document.getElementById('chat-name-join').value = "";
+            document.getElementById('emails').value = "";
+            document.getElementById('emails-invitation').value = "";
+            document.getElementById('emails-invitation-call').value = "";
+
+            $('#add-friend-label').hide();
+            $('#emails').hide();
+            $('#add-friend-form').show();
+            $('.invitation-chat-name').empty();
+            $('.invitation-call-name').empty();
+            $('.invitation-chat-participants').empty();
+            $('.close-chat-name').empty();
+            $('.close-chat-identity').empty();
+            $('.close-call-identity').empty();
+            $('#my-video-content').remove();
+            $('#video-content').remove();
+        }
+      </script>
+
+      <!-- Container with User Profile -->
+      <div class="container">
+        <div class="row" id="chat-room-title">
+        </div>
+        <div class="row" id="chat-room-row">
+          <!-- Content here -->
+        </div>
+        <div class="enter-message-row" id="messages-input-row">
+          <!-- Content here -->
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "eu.rethink.demos"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "eu.rethink.demos"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "eu.rethink.demos"
+        },
+        "cordova-plugin-bluetoothle": {
+            "PACKAGE_NAME": "eu.rethink.demos"
+        }
+    },
+    "dependent_plugins": {}
+}

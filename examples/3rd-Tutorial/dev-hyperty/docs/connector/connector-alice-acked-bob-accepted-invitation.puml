@@ -1,0 +1,64 @@
+@startuml
+autonumber
+
+participant "App" as app
+
+participant "WRTC\nAPI" as wrtcAPI
+
+participant "Connector\nHyperty" as voiceH
+
+participant "Connection\nController" as connCtrl
+
+participant "Connection\nData Object" as ConnA
+
+participant "Bob Peer\nData Object" as ConnB
+
+participant "Syncher" as sync
+
+participant "Message BUS" as bus
+
+bus ->  sync : postMessage( createBobPeerObjectReq )
+
+sync -> voiceH : onNotification( notification )
+
+opt Hyperty acknowledges notification received
+
+sync <- voiceH : notification.ack()
+
+sync -> bus : postMessage( createBobPeerObjectRes )
+
+end
+
+group Hyperty subscribes Bob Peer object
+
+voiceH -> sync : subscribe( bobPeerURL )
+
+create ConnB
+
+sync -> ConnB : new()
+
+sync -> bus : postMessage( subscribeBobPeerReq )
+
+...
+
+sync <- bus : postMessage( subscribeBobPeerRes )
+
+sync --> voiceH : return BobPeer
+
+end group
+
+group Bob SDP is set
+
+voiceH -> connCtrl : addPeer(BobPeer)
+
+connCtrl -> connCtrl : Object.observe(BobPeer, callback )
+
+connCtrl -> app : on( ConnectionChangesEvt )
+
+connCtrl -> wrtcAPI : set BobCommResources\n(incl SDP)
+
+
+end group
+
+
+@enduml

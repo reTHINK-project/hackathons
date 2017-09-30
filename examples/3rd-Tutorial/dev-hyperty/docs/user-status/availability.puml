@@ -1,0 +1,44 @@
+@startuml "availability-context.png"
+
+Package Availability {
+
+class Availability {
+  url : URL.URL
+  reporter : URL.HypertyURL
+  schema : URL.HypertyCatalogueURL
+  name : string
+  scheme = "context"
+  id: string
+  type = "availability"
+  description ?: string
+  time?: date
+  values: AvailabilityStatus[]
+  tag?: string
+}
+
+class AvailabilityValue {
+  name : string
+  value : AvailabilityStatus
+  time ?: date
+  updateTime ?: date
+  expires ?: date
+  address ?: URL.HypertyRuntimeURL
+}
+
+enum AvailabilityStatus {
+ AVAILABLE
+ UNAVAILABLE
+ AWAY
+ BUSY
+}
+
+
+}
+Availability *-- "1..*" AvailabilityValue
+
+Availability -up-|> Context.Context
+AvailabilityValue -up-|> Context.ContextValue
+Availability --> HypertyResource.HypertyResourceType
+
+
+@enduml

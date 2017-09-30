@@ -1,0 +1,94 @@
+@startuml
+autonumber
+
+participant "App" as app
+
+participant "WRTC\nAPI" as wrtcAPI
+
+participant "Connector\nHyperty" as voiceH
+
+participant "Connection\nController" as connCtrl
+
+participant "Connection\nData Object" as ConnA
+
+participant "Bob Peer\nData Object" as ConnB
+
+participant "Syncher" as sync
+
+participant "Message BUS" as bus
+
+bus ->  sync : postMessage( createConnectionObjectReq )
+
+sync -> voiceH : onNotification( notification )
+
+group Hyperty acknowledges notification received
+
+sync <- voiceH : notification.ack()
+
+sync -> bus : postMessage( createConnectionObjectRes )
+
+end group
+
+group Hyperty subscribes connection object
+
+voiceH -> sync : subscribe( connectionURL )
+
+create ConnA
+
+sync -> ConnA : new()
+
+sync -> bus : postMessage( subscribeConnectionReq )
+
+...
+
+sync <- bus : postMessage( subscribeConnectionRes )
+
+sync --> voiceH : return ConnectionDataObject
+
+voiceH --> sync : notification.accept()
+
+create connCtrl
+
+voiceH -> connCtrl : new( Connection )
+
+connCtrl -> connCtrl : Object.observe(Connection, callback )
+
+voiceH -> app : on( ConnectionController )
+
+end group
+
+newpage
+
+group Bob accepts Connection Invitation from Alice
+
+app -> connCtrl : accept()
+
+connCtrl -> ConnA : get Alice CommResources\n(incl SDP)
+
+connCtrl <-- ConnA : return Alice CommResources\n(incl SDP)
+
+connCtrl -> wrtcAPI : set Alice CommResources\n(incl SDP)
+
+connCtrl -> wrtcAPI : get CommResources\n(incl SDP)
+
+connCtrl <-- wrtcAPI : return CommResources\n(incl SDP)
+
+connCtrl -> sync : create( connectionObjSchema, CommResources, aliceHypertyURL )
+
+create ConnB
+
+sync -> ConnB : new()
+
+sync -> sync : Object.observe( Connection )
+
+sync -> bus : postMessage( createBobPeerObjectReqMsg )
+
+...
+
+sync <- bus : postMessage( createBobPeerObjectResOkMsg )
+
+connCtrl <-- sync : return BobPeer
+
+end group
+
+@enduml

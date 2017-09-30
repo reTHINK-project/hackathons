@@ -1,0 +1,18 @@
+{
+ "$schema": "http://json-schema.org/draft-04/schema#",
+ "id": "CodeGeneratorObject",
+ "type": "object",
+ "required": ["code"],
+ "additionalProperties": false,
+  "properties": {
+   "scheme": {
+     "constant": "code"
+   },
+   "constraints": {
+     "browser": true
+   },
+   "code": {
+     "type": "string"
+   }
+ }
+}

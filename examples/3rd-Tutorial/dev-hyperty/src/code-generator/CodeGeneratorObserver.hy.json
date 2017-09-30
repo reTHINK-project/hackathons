@@ -1,0 +1,14 @@
+{
+  "language": "javascript",
+  "signature": "",
+  "configuration": {},
+  "hypertyType": [
+    "code"
+  ],
+  "constraints": {
+    "browser": true
+  },
+  "dataObjects": [
+    "https://catalogue.hysmart.rethink.ptinovacao.pt/.well-known/dataschema/CodeGeneratorDataSchema"
+  ]
+}
