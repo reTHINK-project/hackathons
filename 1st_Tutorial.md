@@ -5,7 +5,7 @@ Each team should develop a web application that uses the `Code Generator Reporte
 ![1st Challenge](./Figures/1-Tutorial.jpg)
 
 To overcome this first tutorial, each team should accomplish all the tasks bellow. 
-Your feedback is extremely important for us, in order to improve the reTHINK framework in the future. As such, after completing all the tasks, each team must fill out this [Survey](https://docs.google.com/forms/d/e/1FAIpQLSezq9Zx9ZJJXuYi5orCslXkMX6eW9wKH5Db0f2TtJKyk393yw/viewform). 
+Your feedback is extremely important for us, in order to improve the reTHINK framework in the future. As such, after completing all the tasks, each team should fill out this [Survey](https://docs.google.com/forms/d/e/1FAIpQLSezq9Zx9ZJJXuYi5orCslXkMX6eW9wKH5Db0f2TtJKyk393yw/viewform). 
 
 ## Task 1 (`estimate: 30 minutes`)
 
