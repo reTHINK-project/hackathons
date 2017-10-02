@@ -1,11 +1,11 @@
 # reTHINK-Beta-Tester-Event-v2.0
 
-This Repo is dedicated to help the challenge participants use the reTHINK framework for web application development. Each team must complete the proposed challenge. Do not forget to fill out the surveys (presentation, challenge and overall). If you do not, your participation will not be considered. Each team should take into account all rules, as these will be taken into account to determine the top places. In order to complete the proposed challenge, it is important that each team read the available documentation at the end of this repository and complete all the available tutorials. Please fill out the surveys presented at the end of each tutorial, it is very important for us in order to improve the reTHINK framework in the future. 
+This Repo is dedicated to help the challenge participants use the reTHINK framework for web application development. Each team must complete the proposed challenge. Do not forget to fill out the surveys (presentation, challenge and overall). If you do not, your participation will not be considered. Each team should take into account all rules, as these will be taken into account to determine the top places. In order to complete the proposed challenge, it is important that each team read the available documentation at the end of this repository and complete all the available tutorials. 
 
 
 ## [Presentation Survey](https://docs.google.com/forms/d/e/1FAIpQLSdw1j5PgpXWcHTNHzt6v7fRI_IEaWl5EZaWYgDSoDVozR8RzQ/viewform)
 
-## [Tutorials](./Tutorials.md) 
+## [Tutorials](./Tutorials.md) `(optional)`
 
 ## [Challenge](./Challenge.md)
 
