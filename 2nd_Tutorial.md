@@ -15,7 +15,7 @@ With this application, users can create chat rooms to exchange messages with eac
 ![2nd Challenge](./Figures/2-Tutorial.jpg)
 
 To overcome this second tutorial, each team should accomplish all the tasks bellow. 
-Your feedback is extremely important for us in order to improve reTHINK framework in the future. As such, after completing all the tasks, each team must fill out this [Survey](https://docs.google.com/forms/d/e/1FAIpQLSdSUG4lieayZa_SaV64shdn5VG8NgmfxlzcLWVTlQAzresccw/viewform). 
+Your feedback is extremely important for us in order to improve reTHINK framework in the future. As such, after completing all the tasks, each team should fill out this [Survey](https://docs.google.com/forms/d/e/1FAIpQLSdSUG4lieayZa_SaV64shdn5VG8NgmfxlzcLWVTlQAzresccw/viewform). 
 
 
 ## Task 1 (`estimate: 10 minutes`)
