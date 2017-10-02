@@ -38,8 +38,6 @@ After completing all the proposed tutorials and challenge, each team must fill o
 
 * [User Availability Reporter](https://rethink-project.github.io/dev-hyperty/hyperties/User-Availability-Reporter-Hyperty/)
 
-* [APP Example](https://github.com/reTHINK-project/dev-app/tree/develop)
-
 * [Hyperty Development](https://rethink-project.github.io/specs/tutorials/development-of-hyperties/)
 
 * [Webinars](https://www.youtube.com/channel/UC4xTKj2ZvhUyJosA_fLeAhg)
