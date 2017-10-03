@@ -18,4 +18,4 @@ by each team. The main goals with these tutorials is that at the end, each team 
 ## [4th Web Application Example](./4th_Tutorial.md) 
 
 
-#### Note: Each team can find the solutions (examples) for the above tutorials [here](https://github.com/BernardoMG/reTHINK-Beta-Tester-Event-v2.0/tree/master/examples).
+#### Note: Each team can find the solutions (examples) for the above tutorials [here](https://github.com/reTHINK-project/hackathons/tree/betatester/examples).
